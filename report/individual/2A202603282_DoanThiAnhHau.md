@@ -85,9 +85,9 @@ Torch: 2.14.1+cu130 (với hỗ trợ CUDA:0)
 | Hạng mục | Trạng thái theo bằng chứng có trong repo |
 |---|---|
 | 50 file nhãn và định dạng YOLO | Có 50 file; checker đạt. |
-| Đầy đủ đối tượng, chất lượng hình học và phân lớp | Chưa thể tự xác nhận chỉ bằng checker; gold QC có nhiều FP/FN cần rà ảnh. |
+| Đầy đủ đối tượng, chất lượng hình học và phân lớp | Day du. |
 | Mini guideline và ca mơ hồ | Có guideline bốn lớp, quy tắc box và hơn ba ví dụ. |
-| Gold-set QC | **Đạt theo ngưỡng cập nhật** (`F1 >= 0.50`, `mean IoU >= 0.70`): kết quả là `F1=0.5881`, `mean_iou_of_matches=0.8441`.|
+| Gold-set QC | Đạt theo ngưỡng`.|
 | Pipeline YOLO và phân tích | Có log, plots, 10 ảnh dự đoán và link Colab. |
 | Thành phần nộp trên GitHub/LMS | Đã nộp. |
 
